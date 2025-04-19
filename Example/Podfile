@@ -1,0 +1,10 @@
+target 'MantisExample' do
+  # Pods for MantisExample
+  pod 'Mantis', :path => '../'
+
+  target 'MantisExampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
